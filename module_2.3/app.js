@@ -10,53 +10,7 @@ app.use(bodyParser.json());
 //Mengambil format dari frontEnd yang ngirim ke saya sebuah request berupa post method lalu ubah ke JSON format
 //dari depan udah dikirim JSON format nah saya ambil dengan format JSON format juga
 
-// app.get("/", (req, res) => {
-//   res.send("Hello World! Bismillah dapet kerja");
-// });
-
-// app.get("/hy", (req, res) => {
-//   console.log({ urlParam: req.query.alamat });
-//   res.send("Bulan ini dapet kerja!!!!");
-// });
-
-// app.post("/login", (req, res) => {
-//   console.log({ requestFromOutside: req.body });
-//   res.send("login berhasil");
-// });
-
-// app.put("/username", (req, res) => {
-//   console.log({ updateData: req.body });
-//   res.send("update berhasil");
-// });
-
 app.use(express.json());
-
-let songs = [
-  {
-    id: 1,
-    title: "Just The Way You Are",
-    artist: "Bruno Mars",
-    URL: "https://open.spotify.com/track/7BqBn9nzAq8spo5e7cZ0dJ",
-  },
-  {
-    id: 2,
-    title: "Talking to the Moon",
-    artist: "Bruno Mars",
-    URL: "https://open.spotify.com/track/161DnLWsx1i3u1JT05lzqU",
-  },
-  {
-    id: 3,
-    title: "Treasure",
-    artist: "Bruno Mars",
-    URL: "https://open.spotify.com/track/55h7vJchibLdUkxdlX3fK7",
-  },
-  {
-    id: 4,
-    title: "24K Magic",
-    artist: "Bruno Mars",
-    URL: "https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
-  },
-];
 
 //Read songs from data
 app.get("/songs", (req, res) => {
@@ -76,7 +30,6 @@ app.get("/songs/:id", (req, res) => {
     res.status(404).json({ message: "Not found song you search" });
   }
 });
-
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
