@@ -1,26 +1,41 @@
-const Playlist = require("../models/song_models");
+const Songs = require("../models/song_models");
 
 //fungsi untuk mendaptkan semua lagu
 function getAllSongs() {
-  return songs;
+  return Songs;
 }
 
-
-function getSong(id) {
-  return songs.find((s) => s.id === id);
-}
-
-function generateSongId() {
-  return Math.random().toString(10).substring(2.6);
-}
-
+//fungsi untuk membuat lagu baru
 function createSong(title, artist, URL) {
-  let newSongs = {
-    id: generateSongId(),
+  let index = Songs.length + 1;
+  Songs.push({
+    id: index++,
     title: title,
     artist: artist,
     URL: "https://open.spotify.com/intl-id",
-  };
-  return songs;
+  });
 }
 
+//fungsi untuk mencari lagu berdasarkan id
+function findplaySongbyId(id) {
+  return Songs.find((song) => song.id === id);
+}
+
+//fungsi untuk mencari lagu berdasarkan title
+function findplaySongbyTitle(title) {
+  return Songs.find((song) => song.title === title);
+}
+
+///Perlu diperbaiki dibagian servicenyaa
+// Menampilkan lagu yang paling banyak ditampilkan
+const mostplayedSong = () => {
+  return Songs.sort((a, b) => b.total_played - a.total_played);
+};
+
+module.exports = {
+  getAllSongs,
+  createSong,
+  findplaySongbyId,
+  findplaySongbyTitle,
+  mostplayedSong,
+};
