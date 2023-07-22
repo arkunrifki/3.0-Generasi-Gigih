@@ -1,0 +1,158 @@
+[{
+  "_id": {
+    "$oid": "64b6622095e29948cde36a1b"
+  },
+  "title_song": "Bilionaire",
+  "name_artist": "Bruno Mars",
+  "Album": "Lazarus"
+},
+{
+  "_id": {
+    "$oid": "64b6622095e29948cde36a1c"
+  },
+  "title_song": "Calling All My Lovelies",
+  "name_artist": "Bruno Mars",
+  "Album": "24K Magic"
+},
+{
+  "_id": {
+    "$oid": "64b6622095e29948cde36a1d"
+  },
+  "title_song": "Talking to the Moon",
+  "Album": "Doo-Woops & Hooligans"
+},
+{
+  "_id": {
+    "$oid": "64b6622095e29948cde36a1e"
+  },
+  "title_song": "Locked Out Of Heaven",
+  "name_artist": "Bruno Mars",
+  "Album": "Unorthdox Jukebox"
+},
+{
+  "_id": {
+    "$oid": "64b6622095e29948cde36a1f"
+  },
+  "title_song": "Grenade",
+  "name_artist": "Bruno Mars",
+  "Album": "Doo-Woops & Hooligans"
+},
+{
+  "_id": {
+    "$oid": "64b6622095e29948cde36a20"
+  },
+  "title_song": "Runaway Baby",
+  "name_artist": "Bruno Mars",
+  "Album": "Doo-Woops & Hooligans"
+},
+{
+  "_id": {
+    "$oid": "64b6641d95e29948cde36a21"
+  },
+  "title_song": "Marry You",
+  "name_artist": "Bruno Mars",
+  "Album": "Doo-Woops & Hooligans"
+},
+{
+  "_id": {
+    "$oid": "64b6641d95e29948cde36a22"
+  },
+  "title_song": "When I Was Your Man",
+  "name_artist": "Bruno Mars",
+  "Album": "Unorthdox Jukebox"
+},
+{
+  "_id": {
+    "$oid": "64b6641d95e29948cde36a23"
+  },
+  "title_song": "Versace on the Floor",
+  "name_artist": "Bruno Mars",
+  "Album": "24K Magic"
+},
+{
+  "_id": {
+    "$oid": "64b6641d95e29948cde36a24"
+  },
+  "title_song": "Young, Wild & Free",
+  "name_artist": "Bruno Snoop Dogg and Wiz Khalifa",
+  "Album": "Mac & Devin Go to High School"
+},
+{
+  "_id": {
+    "$oid": "64b67c00cb7a31c542c92342"
+  },
+  "name_artist": "Bruno Mars",
+  "date_ofBirth": "8-10-1985",
+  "genre": "Reggae"
+},
+{
+  "_id": {
+    "$oid": "64b67c00cb7a31c542c92343"
+  },
+  "name_artist": "Ariana Grande",
+  "date_ofBirth": "26 June 1998",
+  "genre": "Unorthdox Jukebox"
+},
+{
+  "_id": {
+    "$oid": "64b67c00cb7a31c542c92344"
+  },
+  "name_artist": "Taylor Swift",
+  "genre": "Pop Music"
+},
+{
+  "_id": {
+    "$oid": "64b67c00cb7a31c542c92345"
+  },
+  "name_artist": "Snoop Dogg",
+  "date_ofBirth": "20 October 1971",
+  "genre": "Reggae"
+},
+{
+  "_id": {
+    "$oid": "64b67c00cb7a31c542c92346"
+  },
+  "name_artist": "Wiz Khalifa",
+  "date_ofBirth": "8 September 1987",
+  "genre": "Reggae"
+},
+{
+  "_id": {
+    "$oid": "64b67c00cb7a31c542c92347"
+  },
+  "name_artist": "Drake",
+  "date_ofBirth": "24 Oktober 1986",
+  "genre": "Reggae"
+},
+{
+  "_id": {
+    "$oid": "64b67c00cb7a31c542c92348"
+  },
+  "name_artist": "Beyonce",
+  "date_ofBirth": "4 September 1981",
+  "genre": "R&B/Soul"
+},
+{
+  "_id": {
+    "$oid": "64b67c00cb7a31c542c92349"
+  },
+  "name_artist": "Yui",
+  "date_ofBirth": "26 Maret 1987",
+  "genre": ""
+},
+{
+  "_id": {
+    "$oid": "64b67c00cb7a31c542c9234a"
+  },
+  "name_artist": "Yoasobi",
+  "date_ofBirth": "2019",
+  "genre": "J-Pop"
+},
+{
+  "_id": {
+    "$oid": "64b67c00cb7a31c542c9234b"
+  },
+  "name_artist": "Ado",
+  "date_ofBirth": "24 Oktober 2004",
+  "genre": "J-Pop"
+}]

@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "64b67c76cb7a31c542c9234c"
+  },
+  "name_artist": "Bruno Mars",
+  "date_ofBirth": "8-10-1985",
+  "genre": "Reggae"
+},
+{
+  "_id": {
+    "$oid": "64b67c76cb7a31c542c9234d"
+  },
+  "name_artist": "Ariana Grande",
+  "date_ofBirth": "26 June 1998",
+  "genre": "Unorthdox Jukebox"
+},
+{
+  "_id": {
+    "$oid": "64b67c76cb7a31c542c9234e"
+  },
+  "name_artist": "Taylor Swift",
+  "genre": "Pop Music"
+},
+{
+  "_id": {
+    "$oid": "64b67c76cb7a31c542c9234f"
+  },
+  "name_artist": "Snoop Dogg",
+  "date_ofBirth": "20 October 1971",
+  "genre": "Reggae"
+},
+{
+  "_id": {
+    "$oid": "64b67c76cb7a31c542c92350"
+  },
+  "name_artist": "Wiz Khalifa",
+  "date_ofBirth": "8 September 1987",
+  "genre": "Reggae"
+},
+{
+  "_id": {
+    "$oid": "64b67c76cb7a31c542c92351"
+  },
+  "name_artist": "Drake",
+  "date_ofBirth": "24 Oktober 1986",
+  "genre": "Reggae"
+},
+{
+  "_id": {
+    "$oid": "64b67c76cb7a31c542c92352"
+  },
+  "name_artist": "Beyonce",
+  "date_ofBirth": "4 September 1981",
+  "genre": "R&B/Soul"
+},
+{
+  "_id": {
+    "$oid": "64b67c76cb7a31c542c92353"
+  },
+  "name_artist": "Yui",
+  "date_ofBirth": "26 Maret 1987",
+  "genre": ""
+},
+{
+  "_id": {
+    "$oid": "64b67c76cb7a31c542c92354"
+  },
+  "name_artist": "Yoasobi",
+  "date_ofBirth": "2019",
+  "genre": "J-Pop"
+},
+{
+  "_id": {
+    "$oid": "64b67c76cb7a31c542c92355"
+  },
+  "name_artist": "Ado",
+  "date_ofBirth": "24 Oktober 2004",
+  "genre": "J-Pop"
+}]
